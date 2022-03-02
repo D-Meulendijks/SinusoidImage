@@ -1,0 +1,21 @@
+FM:
+lines = 100 # Amount of lines in the image
+maxfreq = 5/10 # Maximum frequency that can be drawn
+minfreq = 1/20 # Minimum frequency that can be drawn
+inverted = False # Invert the image
+
+# Blur parameters
+blocksizex = 50
+blocksizey = 50
+
+AM:
+lines = 50 # Amount of lines in the image
+minamp = 1/10 # Minimum amplitude
+amplitudescalar = 3 # How big the amplitude scales when at max value
+freq = 75 # Frequency of signals. Note that changing frequency can alter the image a lot due to aliasing.
+inverted = False # Invert the image
+
+# Blur parameters
+blocksizex = 50
+blocksizey = 50
+
